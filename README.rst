@@ -1,21 +1,19 @@
-Go JSBox Skeleton
+go-jsbox-skeleton
 =================
-
-Skeleton repository for Vumi Go JSBox applications.
-Use this as a starting point app development.
-
-::
-
-    $ npm install .
-    $ ./node_modules/.bin/mocha -R spec
-
-Documentation also available for Vumi Go's JSBox `state machine`_ and
-the various resources_ available for the application to interact with.
-
 
 |travis|_
 
-.. |travis| image:: https://travis-ci.org/smn/go-jsbox-skeleton.png?branch=develop
-.. _travis: https://travis-ci.org/smn/go-jsbox-skeleton
-.. _state machine: http://vumi-jssandbox-toolkit.readthedocs.org/en/latest/
-.. _resources: https://vumi-go.readthedocs.org/en/latest/sandbox-resources.html
+Skeleton for a vumi javascript sandbox app. Use this as a starting point for writing a sandbox app using the `vumi-jssandbox-toolkit`_.
+
+::
+
+    $ npm install
+    $ npm test
+
+Take a look at the `docs`_ for more examples and the toolkit's api.
+
+
+.. |travis| image:: https://travis-ci.org/praekelt/go-jsbox-skeleton.png?branch=develop
+.. _travis: https://travis-ci.org/praekelt/go-jsbox-skeleton
+.. _vumi-jssandbox-toolkit: https://github.com/praekelt/vumi-jssandbox-toolkit/tree/release/0.2.x
+.. _docs: http://vumi-jssandbox-toolkit.readthedocs.org/en/release-0.2.x/
